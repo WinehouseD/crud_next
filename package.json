@@ -2,6 +2,7 @@
   "name": "todo_nextjs",
   "version": "0.1.0",
   "private": true,
+  "type": "module",
   "scripts": {
     "dev": "next dev",
     "build": "next build",
@@ -21,7 +22,6 @@
     "@types/react-dom": "^19",
     "eslint": "^9.23.0",
     "eslint-config-next": "15.2.4",
-    "eslint-plugin-next": "^0.0.0",
     "eslint-plugin-react": "^7.37.4",
     "eslint-plugin-react-hooks": "^5.2.0",
     "tailwindcss": "^4"

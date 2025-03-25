@@ -29,7 +29,7 @@ export default function Home() {
   };
 
   return (
-    <div className="container mx-auto p-2">
+    <div className="container mx-auto sm:p-4">
       <h1 className="text-2xl font-bold mb-4">Todo App</h1>
       <TodoForm createTodo={handleCreateTodo} isLoading={isLoading} />
       <TodoList todos={todos} deleteTodo={handleDeleteTodo} isError={isError} />
