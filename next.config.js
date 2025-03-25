@@ -2,7 +2,7 @@
 const nextConfig = {
   output: "export",
   trailingSlash: true,
-  basePath: "/todo",
+  basePath: "/todo/",
   reactStrictMode: true,
 };
 
