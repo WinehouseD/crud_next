@@ -1,6 +1,9 @@
+/** @type {import('next').NextConfig} */
 const nextConfig = {
+  output: "export",
+  trailingSlash: true,
+  basePath: "/todo",
   reactStrictMode: true,
-  pageExtensions: ["jsx", "js"],
 };
 
 module.exports = nextConfig;
